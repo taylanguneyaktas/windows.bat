@@ -1,0 +1,12 @@
+ECHO OFF
+ECHO. 		
+ECHO  			AUTOMATED COMMAND  --IPCONFIG /ALL--
+
+SYSTEMINFO.exe
+IPCONFIG /ALL 	
+	
+PAUSE 	
+	
+PING www.google.com 		
+ECHO STATUS pinging Google. 		
+PAUSE 
